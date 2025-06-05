@@ -1,12 +1,59 @@
-# React + Vite
+# 📝 React Online Library System App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intuitive and responsive online library management system built with React and Vite. This application allows users to browse, add, and manage books seamlessly, providing a user-friendly interface for efficient library operations. 
 
-Currently, two official plugins are available:
+Github repository - https://github.com/Akash-Tri/online-library-system-react
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+Browse Books: View a curated list of books with detailed information.
 
-## Expanding the ESLint configuration
+Add New Books: Easily add new books to the library collection.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Design: Optimized for various devices, ensuring a consistent user experience.
+
+Routing: Navigate between different pages using React Router.
+
+State Management: Manage application state efficiently with Redux Toolkit.
+
+🛠️ Technologies Used
+Frontend: React.js, Vite
+
+Routing: React Router DOM
+
+State Management: Redux Toolkit
+
+Styling: CSS 
+
+Package Management: npm
+
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+Ensure that you have the following installed:
+- **Node.js** (version 14 or higher)
+- **npm** (Node Package Manager – comes with Node.js)
+
+You can check by running:
+node -v
+npm -v
+
+If not installed, download from: https://nodejs.org/
+
+⚙️ Installation & Setup
+
+Clone the repository
+
+git clone https://github.com/Akash-Tri/online-library-system-react
+Navigate into the project folder
+
+cd online-library-system-react
+Install project dependencies
+
+npm install
+Start the development server
+
+npm start
+This will automatically open the app in your default browser at:
+
+http://localhost:3000
