@@ -5,7 +5,7 @@ const BookDetailsPage = () => {
   const { bookId } = useParams();
   const navigate = useNavigate();
   const book = useSelector((state) =>
-    state.books.books.find((b) => b.id === Number(bookId)) // Convert to number here
+    state.books.books.find((b) => b.id === bookId)
   );
 
   if (!book) {
