@@ -14,7 +14,6 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/React-Assignment-02/" element={<HomePage />} />
         <Route path="/books/:category" element={<BrowseBooksPage />} />
         <Route path="/books/:category/:bookId" element={<BookDetailsPage />} />
         <Route path="/add-book" element={<AddBookPage />} />
